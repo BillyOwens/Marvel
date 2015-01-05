@@ -26,7 +26,7 @@ xmlhttp.onreadystatechange=function()
     document.getElementById("testingAjax1").innerHTML=xmlhttp.responseText;
     }
   }
-xmlhttp.open("GET","text/text1.txt",true);
+xmlhttp.open("GET","ajax/text1.txt",true);
 xmlhttp.send();
 }
 
@@ -49,7 +49,7 @@ xmlhttp.onreadystatechange=function()
     document.getElementById("testingAjax2").innerHTML=xmlhttp.responseText;
     }
   }
-xmlhttp.open("GET","text/text2.txt",true);
+xmlhttp.open("GET","ajax/text2.txt",true);
 xmlhttp.send();
 }
 
@@ -71,7 +71,7 @@ xmlhttp.onreadystatechange=function()
     document.getElementById("testingAjax3").innerHTML=xmlhttp.responseText;
     }
   }
-xmlhttp.open("GET","text/text3.txt",true);
+xmlhttp.open("GET","ajax/text3.txt",true);
 xmlhttp.send();
 }
 
@@ -93,7 +93,7 @@ xmlhttp.onreadystatechange=function()
     document.getElementById("testingAjax4").innerHTML=xmlhttp.responseText;
     }
   }
-xmlhttp.open("GET","text/text4.txt",true);
+xmlhttp.open("GET","ajax/text4.txt",true);
 xmlhttp.send();
 }
 
